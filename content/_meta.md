@@ -1,8 +1,8 @@
 ---
-Logo: image/leaf_256x256.png
-Tagline: My portfolio.
+Logo: image/JW-logo.png
+Tagline: Välkommen till min sida.
 Social:
-    - title: Link till sidans github repo.
-      url: https://github.com/dbwebb-se/design-v3
+    - title: Link till mitt github repo.
+      url: https://github.com/jessicawestin/dbwebb_design
       icon: github
 ---

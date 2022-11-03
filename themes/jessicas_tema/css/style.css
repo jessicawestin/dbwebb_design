@@ -20,13 +20,14 @@ html, body {
 /* Placement */
 
 body {
-    background-color: pink;
+    background-color: white;
     display: flex;
     flex-direction: column;
 }
 
 .main {
     flex: 1 0 auto;
+    align-items: center;
 }
 
 .header, .footer {
@@ -59,7 +60,7 @@ body {
 }
 
 .title * {
-    color: #111;
+    color: rgb(0, 0, 0);
 }
 
 .title p {
@@ -103,6 +104,8 @@ h1, h2, h3, h4, h5, h6 {
 
 img {
     max-width: 100%;
+    float: right;
+    padding-left: 30px;
 }
 
 /* BELOW ARE PREPARED STYLES FOR CODE/PRE/BLOCKQUOTE, FEEL FREE TO REMOVE IT  */
