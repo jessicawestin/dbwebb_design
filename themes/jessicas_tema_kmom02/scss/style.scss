@@ -1,0 +1,50 @@
+@import '../../node_modules/normalize.css/normalize';
+@import 'variables';
+
+@import 'blockquotes';
+@import 'code';
+@import 'footer';
+
+//import fontawesome
+@import '../../shared/fontawesome/scss/fontawesome';
+$fa-font-path: '../../shared/fontawesome/webfonts';
+@import '../../shared/fontawesome/scss/brands';
+@import '../../shared/fontawesome/scss/solid';
+@import '../../shared/fontawesome/scss/regular';
+
+
+// import google font
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Lato&display=swap');
+
+
+
+
+body {
+    background-color: $background-color;
+    font-family: 'Lato', sans-serif;
+    margin: $base-margin;
+}
+
+* {
+    color: $font-color;
+}
+
+h1 {
+    a {
+        font-family: 'Times New Roman', Times, serif;
+        color: $accent-color;
+    } 
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Inter', sans-serif;
+}
+
+img { 
+    max-width: 100%;
+    border-radius: 10%;
+    margin: $base-margin;
+}
+
+
