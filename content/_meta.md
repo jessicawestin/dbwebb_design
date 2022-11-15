@@ -5,7 +5,7 @@ Social:
     - title: Länk till mitt github repo.
       url: https://github.com/jessicawestin/dbwebb_design
       icon: fab fa-github
-    - title: Test
+    - title: Länk till Fontawesome.
       url: https://fontawesome.com/
-      icon: fa-solid fa-code
+      icon: fab fa-codepen
 ---

@@ -1,6 +1,9 @@
 @import '../../node_modules/normalize.css/normalize';
 @import 'variables';
 
+@import 'technologies';
+@import 'technology';
+@import 'report';
 @import 'blockquotes';
 @import 'code';
 @import 'footer';
@@ -16,13 +19,11 @@ $fa-font-path: '../../shared/fontawesome/webfonts';
 // import google font
 @import url('https://fonts.googleapis.com/css2?family=Inter&family=Lato&display=swap');
 
-
-
-
 body {
     background-color: $background-color;
     font-family: 'Lato', sans-serif;
     margin: $base-margin;
+    padding-bottom: $base-padding;
 }
 
 * {
@@ -36,8 +37,12 @@ h1 {
     } 
 }
 
-
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-family: 'Inter', sans-serif;
 }
 
