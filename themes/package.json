@@ -6,13 +6,19 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "stylelint \"**/*.scss\"",
-    "style": "sass jessicas_tema_kmom02/scss/style.scss jessicas_tema_kmom02/css/style.css --no-source-map",
-    "style-min": "sass jessicas_tema_kmom02/scss/style.scss jessicas_tema_kmom02/css/style.min.css --no-source-map --style compressed"
-  
+    "watch": "sass jessicas_tema_kmom04/scss/style.scss:jessicas_tema_kmom04/css/style.css jessicas_tema_kmom04/scss/style-dark.scss:jessicas_tema_kmom04/css/style-dark.css --no-source-map --watch",
+    "watch-min": "sass jessicas_tema_kmom04/scss/style.scss:jessicas_tema_kmom04/css/style.min.css jessicas_tema_kmom04/scss/style-dark.scss:jessicas_tema_kmom04/css/style-dark.min.css --no-source-map --watch --style compressed",
+    "style": "npm run style-light && npm run style-dark",
+    "style-min": "npm run style-light-min && npm run style-dark-min",
+    "style-dark": "sass jessicas_tema_kmom04/scss/style-dark.scss jessicas_tema_kmom04/css/style-dark.css --no-source-map",
+    "style-dark-min": "sass jessicas_tema_kmom04/scss/style-dark.scss jessicas_tema_kmom04/css/style-dark.min.css --no-source-map --style compressed",
+    "style-light": "sass jessicas_tema_kmom04/scss/style.scss jessicas_tema_kmom04/css/style.css --no-source-map",
+    "style-light-min": "sass jessicas_tema_kmom04/scss/style.scss jessicas_tema_kmom04/css/style.min.css --no-source-map --style compressed"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "colors.css": "^3.0.0",
     "normalize.css": "^8.0.1",
     "sass": "^1.26.11",
     "stylelint": "^13.7.2",

@@ -7,7 +7,6 @@
 @import 'blockquotes';
 @import 'code';
 @import 'footer';
-@import 'analyser';
 
 //import fontawesome
 @import '../../shared/fontawesome/scss/fontawesome';
@@ -20,15 +19,20 @@ $fa-font-path: '../../shared/fontawesome/webfonts';
 // import google font
 @import url('https://fonts.googleapis.com/css2?family=Inter&family=Lato&display=swap');
 
+* {
+    color: $font-alternative-color;
+}
+
+html {
+    background-color: $dark-background;
+
+}
+
 body {
-    background-color: $background-color;
+    background-color: $dark-background;
     font-family: 'Lato', sans-serif;
     margin: $base-margin;
     padding-bottom: $base-padding;
-}
-
-* {
-    color: $font-color;
 }
 
 h1 {
@@ -47,10 +51,26 @@ h6 {
     font-family: 'Inter', sans-serif;
 }
 
+.nav li a {
+    color: $font-alternative-color;
+}
+
 img { 
     max-width: 100%;
     border-radius: 10%;
     margin: $base-margin;
+    float: right;
+    filter: drop-shadow(5px 5px 5px $transparent-alternative);
+}
+
+pre {
+    background-color: $dark-background;
+    color: $font-alternative-color;
+}
+
+code {
+    background-color: $dark-background;
+    color: $font-alternative-color;
 }
 
 

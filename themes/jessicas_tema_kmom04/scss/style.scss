@@ -6,8 +6,9 @@
 @import 'report';
 @import 'blockquotes';
 @import 'code';
+@import 'header';
 @import 'footer';
-@import 'analyser';
+@import 'analysis';
 
 //import fontawesome
 @import '../../shared/fontawesome/scss/fontawesome';
@@ -18,11 +19,11 @@ $fa-font-path: '../../shared/fontawesome/webfonts';
 
 
 // import google font
-@import url('https://fonts.googleapis.com/css2?family=Inter&family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Lato&family=Poppins&family=Rubik@1&display=swap');
 
 body {
-    background-color: $background-color;
-    font-family: 'Lato', sans-serif;
+    background-color: $base-yellow;
+    font-family: 'Poppins', sans-serif;
     margin: $base-margin;
     padding-bottom: $base-padding;
 }
@@ -34,7 +35,7 @@ body {
 h1 {
     a {
         font-family: 'Times New Roman', Times, serif;
-        color: $accent-color;
+        color: $base-pink;
     } 
 }
 
@@ -44,13 +45,13 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: 'Inter', sans-serif;
+    font-family: 'Rubik', sans-serif;
 }
 
 img { 
     max-width: 100%;
     border-radius: 10%;
     margin: $base-margin;
+    float: right;
+    filter: drop-shadow(5px 5px 5px $base-blue);
 }
-
-

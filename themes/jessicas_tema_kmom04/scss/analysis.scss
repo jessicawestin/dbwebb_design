@@ -1,0 +1,32 @@
+.tech-landingpage {
+    display: grid;
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+    line-height: 20px;
+    padding-bottom: $base-padding;
+}
+
+.tech-landingpage h1 {
+    grid-column: span 3;
+}
+
+.analys1 {
+    grid-column: 1 / 4;
+    background-color: $base-blue;
+    border-radius: 10px 100px / 120px;
+    padding: 15px 30px;
+}
+
+.analys2 {
+    grid-column: 1 / 4;
+    background-color: $base-pink;
+    border-radius: 10px 100px / 120px;
+    padding: 15px 30px;
+}
+
+.analys3 {
+    grid-column: 1 / 4;
+    background-color: $base-beige;
+    border-radius: 10px 100px / 120px;
+    padding: 15px 30px;
+}

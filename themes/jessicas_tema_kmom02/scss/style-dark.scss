@@ -7,7 +7,6 @@
 @import 'blockquotes';
 @import 'code';
 @import 'footer';
-@import 'analyser';
 
 //import fontawesome
 @import '../../shared/fontawesome/scss/fontawesome';
@@ -53,4 +52,19 @@ img {
     margin: $base-margin;
 }
 
+.main {
+    background-color: rgb(255, 255, 0);
+}
+
+.side-bar {
+    background-color: rgb(255, 255, 0);
+}
+
+.footer {
+    background-color: rgb(255, 255, 0);
+}
+
+.header {
+    background-color: rgb(255, 255, 0);
+}
 

@@ -1,7 +1,7 @@
 ---
 Title: About
 ---
-
+![Här är en bild på mig](image/chapala.jpeg "Jessica Westin")
 Om denna sida 
 =========
 
@@ -27,7 +27,3 @@ Andra tekniker
 ---
 
 Utöver Markdown och SASS, så använder jag VS Code för kodningen och hålla mappstrukturen för min sida. Jag använder mig av terminalen för att köra scriptet npm, som fungerar via programmet node.
-
-Här är en bild på mig  
-![Här är en bild på mig](image/chapala.jpeg "Jessica Westin") 
-

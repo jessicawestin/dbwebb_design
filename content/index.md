@@ -2,11 +2,11 @@
 Title: Hem
 Description: Startsida.
 ---
+[![Jessica Westin](image/jessicawestin200x200.jpeg "Jessica Westin")](https://github.com/jessicawestin/dbwebb_design)
 
 Jessicas sida
 ==========================
 
-[![Jessica Westin](image/jessicawestin.jpeg "Jessica Westin")](https://github.com/jessicawestin/dbwebb_design)  
 Mitt namn är Jessica Westin.
 
 # [Jag är 32 år gammal och fram tills nyligen arbetade jag som kommunikatör.](https://github.com/jessicawestin/dbwebb_design)

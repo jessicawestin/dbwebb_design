@@ -6612,3 +6612,19 @@ img {
   border-radius: 10%;
   margin: 0.75rem;
 }
+
+.main {
+  background-color: yellow;
+}
+
+.side-bar {
+  background-color: yellow;
+}
+
+.footer {
+  background-color: yellow;
+}
+
+.header {
+  background-color: yellow;
+}
