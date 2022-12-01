@@ -63,8 +63,19 @@
 @media screen and (max-width: 960px) {
     .tech-landingpage {
         display: block;
-        grid-template-columns: 1fr;
-        padding: 1em;
-        grid-row-gap: 20px; 
+    }
+    
+    h1 {
+        grid-column: 1 / 4; 
+    }
+    
+    .item1,
+    .item2,
+    .item3,
+    .item4,
+    .item5,
+    .item6,
+    .item7 {
+        grid-column: 1 / 4;
     }
 }
