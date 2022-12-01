@@ -13,9 +13,9 @@ Denna rapport gör en kvalitativ undersökning av användandet av färg och typo
 </div>
 
 <div class="analys2" markdown="1">
-### [Rapport 2](%base_url%?analysis/02_load/)
-Här kommer nästa rapport att länkas.  
-[Rapport ej publicerad än](%base_url%?analysis/02_load/)
+### [SOS…loading](%base_url%?analysis/02_load/)
+Denna rapport gör en kvalitativ mätning och undersökning av laddningstid av hemsidor från tre svenska samhällsbärande funktioner.  
+[Läs den färdiga rapporten](%base_url%?analysis/02_load/)
 </div>
 
 <div class="analys3" markdown="1">

@@ -2,7 +2,9 @@
 Title: Hem
 Description: Startsida.
 ---
-[![Jessica Westin](image/jessicawestin200x200.jpeg "Jessica Westin")](https://github.com/jessicawestin/dbwebb_design)
+<div class="img-right">
+    <img src="image/jessicawestin200x200.jpeg?crop=160,180,10,10" alt="Jessica Westin">
+</div>
 
 Jessicas sida
 ==========================

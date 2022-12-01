@@ -1,7 +1,10 @@
 ---
 Title: About
 ---
-![Här är en bild på mig](image/chapala.jpeg "Jessica Westin")
+<div class="img-right">
+    <img src="image/chapala.jpeg?area=5,30,0,10" alt="Jessica Westin">
+</div>
+
 Om denna sida 
 =========
 

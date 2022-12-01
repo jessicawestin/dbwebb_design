@@ -26,7 +26,11 @@ Resultat
 
 
 ### SAS
-[![SAS](%base_url%?image/sas.png "SAS")](https://www.sas.se/)   
+<div class="img-right">
+    <a href="https://www.sas.se/" target="_blank">
+    <img src="%base_url%?image/sas.png" alt="SAS">
+    </a>
+</div>
 
 <table style="border-spacing: 4px; border-collapse: separate">
 <tr>
@@ -44,7 +48,12 @@ I och med att SAS har valt att genomgående använda sig av blått, en färg som
 
 
 ### Norwegian
-[![Norwegian](%base_url%?image/norwegian.png "Norwegian")](https://www.norwegian.com/se/)   
+<div class="img-right">
+    <a href="https://www.norwegian.com/se/" target="_blank">
+    <img src="%base_url%?image/norwegian.png" alt="Norwegian">
+    </a>
+</div>
+
 <table style="border-spacing: 4px; border-collapse: separate">
 <tr>
 <td style="height: 50px; width: 200px; background-color: #003251">
@@ -61,7 +70,11 @@ Norwegian, som namnet antyder, spelar på sitt norska arv med sina tre valda fä
 
 
 ### Ryanair
-[![Ryanair](%base_url%?image/ryanair.png "Ryanair")](https://www.ryanair.com/se/sv)  
+<div class="img-right">
+    <a href="https://www.ryanair.com/se/sv" target="_blank">
+    <img src="%base_url%?image/ryanair.png" alt="Ryanair">
+    </a>
+</div>
 <table style="border-spacing: 4px; border-collapse: separate">
 <tr>
 <td style="height: 50px; width: 200px; background-color: #073590">

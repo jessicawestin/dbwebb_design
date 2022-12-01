@@ -1,5 +1,5 @@
 ---
-Logo: image/JW-logo_75x75.jpeg
+Logo: image/JW-logo_75x75.jpeg?width=90%
 Tagline: Välkommen till min sida.
 Social:
     - title: Länk till mitt github repo.
