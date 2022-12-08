@@ -1,6 +1,7 @@
 ---
 Title: SOS…loading
 Description: Design / rapport kmom05.
+Template: analysis
 ---
 ### Design rapport kmom05
 
@@ -30,7 +31,7 @@ Resultat
 </div>
 
 <div style="text-align: center">
-<iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vT1zOFPco-gJGC0O59TGC75eE30JA19JRTBDlI87ptBi15ig67BSVs-yQFyVQnvkA-5NiyRdEneDcqB/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false" frameborder="0" width="50%" height="650" scrolling="no"></iframe>
+<iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vT1zOFPco-gJGC0O59TGC75eE30JA19JRTBDlI87ptBi15ig67BSVs-yQFyVQnvkA-5NiyRdEneDcqB/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false" frameborder="0" width="50%" height="650" scrolling="no" title="Polisen"></iframe>
 </div>
 
 Polisens hemsida levererar genomgående bra resultat på mätningarna i Pagespeed samt i utvecklarverktyget. Det som hemsidan skulle kunna förbättra framförallt prestandan på både desktop och mobil, där hastigheten drar ner genomsnittsbetyget. Vissa bildelement saknar width och height, samt bildinläsningen var uppskjuten vid största uppritningen av innehåll. 
@@ -42,7 +43,7 @@ Polisens hemsida levererar genomgående bra resultat på mätningarna i Pagespee
     </a>
 </div>
 <div style="text-align: center">
-<iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vT1zOFPco-gJGC0O59TGC75eE30JA19JRTBDlI87ptBi15ig67BSVs-yQFyVQnvkA-5NiyRdEneDcqB/pubhtml?gid=1132339801&amp;single=true&amp;widget=true&amp;headers=false" frameborder="0" width="50%" height="650" scrolling="no"></iframe>
+<iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vT1zOFPco-gJGC0O59TGC75eE30JA19JRTBDlI87ptBi15ig67BSVs-yQFyVQnvkA-5NiyRdEneDcqB/pubhtml?gid=1132339801&amp;single=true&amp;widget=true&amp;headers=false" frameborder="0" width="50%" height="650" scrolling="no" title="1177"></iframe>
 </div>
 
 
@@ -57,7 +58,7 @@ Polisens hemsida levererar genomgående bra resultat på mätningarna i Pagespee
     </a>
 </div>
 <div style="text-align: center">
-<iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vT1zOFPco-gJGC0O59TGC75eE30JA19JRTBDlI87ptBi15ig67BSVs-yQFyVQnvkA-5NiyRdEneDcqB/pubhtml?gid=1132339801&amp;single=true&amp;widget=true&amp;headers=false" frameborder="0" width="50%" height="650" scrolling="no"></iframe>
+<iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vT1zOFPco-gJGC0O59TGC75eE30JA19JRTBDlI87ptBi15ig67BSVs-yQFyVQnvkA-5NiyRdEneDcqB/pubhtml?gid=1132339801&amp;single=true&amp;widget=true&amp;headers=false" frameborder="0" width="50%" height="650" scrolling="no" title="MSB"></iframe>
 </div>
 
 MSB har mycket att förbättra på sin hemsida. Tillgängligheten är det som levererar bäst på mätningen på Google Pagespeed, där den levererar genomgående 98/100 på alla sidor, både på desktop och mobil. Det är prestandan som levererar sämst, så lågt som 28/100 på mobilt på dess landningssida, däribland då de har ett “onödigt stort DOM-träd” med 6717 element. Möjligheterna till förbättring ligger i att bilderna kan uppdateras till ett modernare format bildformat samt att skjuta upp inläsningen av bilder som inte visas på skärmen. Dessutom skulle MSB kunna aktivera textkomprimering samt att texten vara synlig medan webbteckensnitten läses in. 

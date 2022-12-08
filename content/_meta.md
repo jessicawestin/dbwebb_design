@@ -1,6 +1,6 @@
 ---
-Logo: image/JW-logo_75x75.jpeg?width=90%
-Tagline: Välkommen till min sida.
+Logo: image/jw-logo-kmom06.png
+Tagline: 
 Social:
     - title: Länk till mitt github repo.
       url: https://github.com/jessicawestin/dbwebb_design

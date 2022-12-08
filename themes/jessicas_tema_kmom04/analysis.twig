@@ -1,0 +1,38 @@
+{% include 'incl/header.twig' %}
+{% if config.session.theme == "dark" %}
+    <link rel="stylesheet" href="{{ theme_url }}/css/style-dark.css" type="text/css" />
+{% else %}
+    <link rel="stylesheet" href="{{ theme_url }}/css/style.css" type="text/css" />
+{% endif %}
+<body markdown="1">
+    {% include 'incl/nav.twig' %}
+    
+<div class="grid wrapper">
+{% if config.session.theme == "dark" %}
+    <link rel="stylesheet" href="{{ theme_url }}/css/style-dark.css" type="text/css" />
+{% else %}
+    <link rel="stylesheet" href="{{ theme_url }}/css/style.css" type="text/css" />
+{% endif %}
+    <div class="side-bar">
+    <span class="meny">
+    Meny
+    </span>
+            <ul>
+                {% for page in pages("analysis") if page.title and not page.hidden %}
+                    <li{% if page.id==current_page.id %} class="active" {% endif %}>
+                        <a href="{{ page.url }}">{{ page.title }}</a>
+                    </li>
+                {% endfor %}
+            </ul>
+
+    </div>
+    
+    <div class="main">
+        {{ content }}
+    </div>
+</div>
+    
+    {% include 'incl/footer.twig' %}
+</body>
+
+</html>

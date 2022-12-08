@@ -464,7 +464,6 @@ pre code {
 .header {
   display: flex;
   justify-content: space-between;
-  border-bottom: 1px solid #919cdb;
 }
 
 .logo {
@@ -475,8 +474,9 @@ pre code {
 .footer {
   display: flex;
   justify-content: space-between;
-  border-top: 1px solid #919cdb;
+  border-top: 1px solid #f29dcf;
   font-size: 10px;
+  margin: 0.75rem;
 }
 
 .social a {
@@ -499,6 +499,10 @@ pre code {
 }
 
 .tech-landingpage h1 {
+  grid-column: span 3;
+}
+
+.tech-intro {
   grid-column: span 3;
 }
 
@@ -6708,15 +6712,23 @@ readers do not read off random characters that represent icons */
   font-weight: 400;
 }
 
+html {
+  width: 100%;
+}
+
 body {
-  background-color: #ebe79b;
+  width: 100%;
+  background-color: #fff6f4;
   font-family: "Poppins", sans-serif;
-  margin: 0.75rem;
   padding-bottom: 0.75rem;
 }
 
+.main {
+  margin: 0.75rem;
+}
+
 * {
-  color: #000;
+  color: #002C34;
 }
 
 h1 a {
@@ -6738,10 +6750,6 @@ embed,
 object,
 video {
   max-width: 100%;
-}
-
-img {
-  border-radius: 10%;
 }
 
 .img-right {
@@ -6766,4 +6774,11 @@ img {
   left: 0;
   width: 100%;
   height: 100%;
+}
+
+.img-overflow {
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }

@@ -1,5 +1,5 @@
 ---
-Title: About
+Title: Om
 ---
 <div class="img-right">
     <img src="image/chapala.jpeg?area=5,30,0,10" alt="Jessica Westin">
@@ -22,9 +22,6 @@ Jag kan också göra andra saker i Markdown.
 Styling
 ---
 Utöver Markdown-kod, så använder jag mig av SASS för stylingen. SASS omvandlas till "vanlig" CSS när jag kör scriptet npm run style. 
-
-# [Jag har satt en nestad styling för H1-rubriker som har länk.](https://github.com/jessicawestin/dbwebb_design)
-# Till skillnad från en vanlig H1-rubrik som ser ut så här.
 
 Andra tekniker
 ---

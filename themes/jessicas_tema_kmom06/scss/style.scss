@@ -1,0 +1,96 @@
+@import '../../node_modules/normalize.css/normalize';
+@import 'variables';
+
+@import 'technologies';
+@import 'technology';
+@import 'report';
+@import 'blockquotes';
+@import 'code';
+@import 'header';
+@import 'footer';
+@import 'analysis';
+@import 'gallery';
+
+//import fontawesome
+@import '../../shared/fontawesome/scss/fontawesome';
+$fa-font-path: '../../shared/fontawesome/webfonts';
+@import '../../shared/fontawesome/scss/brands';
+@import '../../shared/fontawesome/scss/solid';
+@import '../../shared/fontawesome/scss/regular';
+
+
+// import google font
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Lato&family=Poppins&family=Rubik@1&display=swap');
+
+html {
+    width: 100%;
+}
+
+body {
+    width: 100%;
+    background-color: $base-light;
+    font-family: 'Poppins', sans-serif;
+    padding-bottom: $base-padding;
+}
+
+.main {
+    margin: $base-margin;
+}
+
+* {
+    color: $base-dark;
+}
+
+h1 {
+    a {
+        font-family: 'Times New Roman', Times, serif;
+        color: $base-pink;
+    } 
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Rubik', sans-serif;
+}
+
+img,
+embed,
+object,
+video {
+    max-width: 100%;
+}
+
+.img-right { 
+    float: right;
+    border-radius: 10%;
+    margin: $base-margin;
+}
+
+.embed-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+}
+
+.embed-container iframe,
+.embed-container object,
+.embed-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.img-overflow {
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

@@ -1,6 +1,7 @@
 ---
 Title: Blå, blå är himlen
 Description: Design / rapport kmom04.
+Template: analysis
 ---
 ### Design rapport kmom04
 
@@ -106,6 +107,6 @@ Dessutom vill jag gärna notera valet av de olika typsnitten; SAS som har utveck
 Författare:
 Jessica Westin 
 
-Fotnötter
-https://www.sasgroup.net/about-sas/this-is-sas/
-https://www.colophon-foundry.org/typefaces/apercu/ 
+Fotnötter   
+https://www.sasgroup.net/about-sas/this-is-sas/   
+https://www.colophon-foundry.org/typefaces/apercu/    

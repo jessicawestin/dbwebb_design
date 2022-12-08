@@ -1,0 +1,20 @@
+{% include 'incl/header.twig' %}
+{% if config.session.theme == "dark" %}
+    <link rel="stylesheet" href="{{ theme_url }}/css/style-dark.min.css" type="text/css" />
+{% else %}
+    <link rel="stylesheet" href="{{ theme_url }}/css/style.min.css" type="text/css" />
+{% endif %}
+<body>
+<div class="img-overflow"><img src="image/landing_page_kmom06.jpg?area=55,0,3,0" alt="header landing page"></div>
+
+    {% include 'incl/nav.twig' %}
+    
+    <div class="main" role="main">
+
+        {{ content }}
+    </div>
+    
+    {% include 'incl/footer.twig' %}
+</body>
+
+</html>

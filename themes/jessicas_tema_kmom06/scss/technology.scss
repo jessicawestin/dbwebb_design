@@ -1,0 +1,24 @@
+.grid {
+    display: grid;
+}
+
+.wrapper {
+    margin: 0 auto;
+    grid-template-columns: 200px auto;
+    grid-template-rows: auto;
+}
+
+.meny {
+    font-weight: bold;
+}
+
+ul {
+    list-style: none;
+    padding: 10px;
+}
+
+@media only screen and (max-width: 768px) {
+    .side-bar {
+        display: none;
+    }
+}

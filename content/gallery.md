@@ -1,14 +1,17 @@
 ---
-Title: Gallery
+Title: Galleri
 Description: Mitt galleri.
 Template: gallery
 ---
 
 # 22.11.22
 
+<div class="tech-intro" markdown="1">
+** Här är bilder från mitt bröllop. **
+</div>
 
 <div class="pic-gallery1" markdown="1">
-<a href="%base_url%/image/brollop1.jpeg" target="_blank">
+<a href="%base_url%/image/brollop1.jpeg" target="_blank" aria-label="Brollop1">
 <picture>
     <source media="(min-width: 668px)" srcset="image/brollop1.jpeg?area=14,0,41.5,0">
     <source media="(min-width: 376px)" srcset="image/brollop1.jpeg?area=14,0,41.5,0">
@@ -18,7 +21,7 @@ Template: gallery
 </div>
 
 <div class="pic-gallery2" markdown="1">
-<a href="%base_url%/image/brollop2.jpeg" target="_blank">
+<a href="%base_url%/image/brollop2.jpeg" target="_blank" aria-label="Brollop2">
 <picture>
     <source media="(min-width: 668px)" srcset="image/brollop2.jpeg?area=30.5,0,25,0">
     <source media="(min-width: 376px)" srcset="image/brollop2.jpeg?area=30.5,0,25,0">
@@ -28,7 +31,7 @@ Template: gallery
 </div>
 
 <div class="pic-gallery3" markdown="1">
-<a href="%base_url%/image/brollop3.jpeg" target="_blank">
+<a href="%base_url%/image/brollop3.jpeg" target="_blank" aria-label="Brollop3">
 <picture>
     <source media="(min-width: 668px)" srcset="image/brollop3.jpeg?height=50%">
     <source media="(min-width: 376px)" srcset="image/brollop3.jpeg?w=667">
@@ -38,7 +41,7 @@ Template: gallery
 </div>
 
 <div class="pic-gallery1" markdown="1">
-<a href="%base_url%/image/brollop4.jpeg" target="_blank">
+<a href="%base_url%/image/brollop4.jpeg" target="_blank" aria-label="Brollop4">
 <picture>
     <source media="(min-width: 668px)" srcset="image/brollop4.jpeg?height=50%">
     <source media="(min-width: 376px)" srcset="image/brollop4.jpeg?w=667">
@@ -48,7 +51,7 @@ Template: gallery
 </div>
 
 <div class="pic-gallery2" markdown="1">
-<a href="%base_url%/image/brollop5.jpeg" target="_blank">
+<a href="%base_url%/image/brollop5.jpeg" target="_blank"  aria-label="Brollop5">
 <picture>
     <source media="(min-width: 668px)" srcset="image/brollop5.jpeg?area=25,0,30.5,0">
     <source media="(min-width: 376px)" srcset="image/brollop5.jpeg?area=25,0,30.5,0">
@@ -58,7 +61,7 @@ Template: gallery
 </div>
 
 <div class="pic-gallery3" markdown="1">
-<a href="%base_url%/image/brollop6.jpeg" target="_blank">
+<a href="%base_url%/image/brollop6.jpeg" target="_blank" aria-label="Brollop6">
 <picture>
     <source media="(min-width: 668px)" srcset="image/brollop6.jpeg?area=35,0,20.5,0">
     <source media="(min-width: 376px)" srcset="image/brollop6.jpeg?area=35,0,20.5,0">
@@ -68,7 +71,7 @@ Template: gallery
 </div>
 
 <div class="pic-gallery1" markdown="1">
-<a href="%base_url%/image/brollop7.jpeg" target="_blank">
+<a href="%base_url%/image/brollop7.jpeg" target="_blank" aria-label="Brollop7">
 <picture>
     <source media="(min-width: 668px)" srcset="image/brollop7.jpeg?area=25,0,31,0">
     <source media="(min-width: 376px)" srcset="image/brollop7.jpeg?area=25,0,31,0">
@@ -78,7 +81,7 @@ Template: gallery
 </div>
 
 <div class="pic-gallery2" markdown="1">
-<a href="%base_url%/image/brollop8.jpeg" target="_blank">
+<a href="%base_url%/image/brollop8.jpeg" target="_blank" aria-label="Brollop8">
 <picture>
     <source media="(min-width: 668px)" srcset="image/brollop8.jpeg?height=50%">
     <source media="(min-width: 376px)" srcset="image/brollop8.jpeg?w=667">
@@ -88,7 +91,7 @@ Template: gallery
 </div>
 
 <div class="pic-gallery3" markdown="1">
-<a href="%base_url%/image/brollop9.jpeg" target="_blank">
+<a href="%base_url%/image/brollop9.jpeg" target="_blank" aria-label="Brollop9">
 <picture>
     <source media="(min-width: 668px)" srcset="image/brollop9.jpeg?height=50%">
     <source media="(min-width: 376px)" srcset="image/brollop9.jpeg?w=667">
@@ -100,5 +103,5 @@ Template: gallery
 # En video där jag är med
 
 <div class="vid-gallery">
-    <iframe src="https://www.youtube.com/embed/a9T63QyHbI0" frameborder="0" allowfullscreen></iframe>
+    <iframe src="https://www.youtube.com/embed/a9T63QyHbI0" title="Youtube" frameborder="0" allowfullscreen></iframe>
 </div>

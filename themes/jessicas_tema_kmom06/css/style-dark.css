@@ -5,7 +5,7 @@
  * 1. Correct the line height in all browsers.
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
-@import url("https://fonts.googleapis.com/css2?family=Inter&family=Lato&family=Poppins&family=Rubik@1&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter&family=Lato&display=swap");
 html {
   line-height: 1.15; /* 1 */
   -webkit-text-size-adjust: 100%; /* 2 */
@@ -461,22 +461,13 @@ pre code {
   line-height: 1.4;
 }
 
-.header {
-  display: flex;
-  justify-content: space-between;
-  border-bottom: 1px solid #919cdb;
-}
-
-.logo {
-  float: left;
-}
-
 /* Footer */
 .footer {
   display: flex;
   justify-content: space-between;
-  border-top: 1px solid #919cdb;
+  border-top: 1px solid #f29dcf;
   font-size: 10px;
+  margin: 0.75rem;
 }
 
 .social a {
@@ -499,6 +490,10 @@ pre code {
 }
 
 .tech-landingpage h1 {
+  grid-column: span 3;
+}
+
+.tech-intro {
   grid-column: span 3;
 }
 
@@ -6708,20 +6703,29 @@ readers do not read off random characters that represent icons */
   font-weight: 400;
 }
 
+* {
+  color: #fff6f4;
+}
+
+html {
+  background-color: #002C34;
+  width: 100%;
+}
+
 body {
-  background-color: #ebe79b;
-  font-family: "Poppins", sans-serif;
-  margin: 0.75rem;
+  width: 100%;
+  background-color: #002C34;
+  font-family: "Lato", sans-serif;
   padding-bottom: 0.75rem;
 }
 
-* {
-  color: #000;
+.main {
+  margin: 0.75rem;
 }
 
 h1 a {
   font-family: "Times New Roman", Times, serif;
-  color: #f29dcf;
+  color: rgba(238, 77, 174, 0.7450980392);
 }
 
 h1,
@@ -6730,18 +6734,11 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Rubik", sans-serif;
+  font-family: "Inter", sans-serif;
 }
 
-img,
-embed,
-object,
-video {
-  max-width: 100%;
-}
-
-img {
-  border-radius: 10%;
+.nav li a {
+  color: #fff;
 }
 
 .img-right {
@@ -6766,4 +6763,34 @@ img {
   left: 0;
   width: 100%;
   height: 100%;
+}
+
+pre {
+  background-color: rgb(49, 49, 49);
+  color: #fff;
+}
+
+code {
+  background-color: rgb(49, 49, 49);
+  color: #fff;
+}
+
+.img-overflow {
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.item1,
+.item2,
+.item3,
+.item4,
+.item5,
+.item6,
+.item7,
+.analys1,
+.analys2,
+.analys3 {
+  background-color: rgba(164, 164, 164, 0.585);
 }

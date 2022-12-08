@@ -461,11 +461,6 @@ pre code {
   line-height: 1.4;
 }
 
-.iframe {
-  height: auto;
-  width: 100%;
-}
-
 /* Footer */
 .footer {
   display: flex;
